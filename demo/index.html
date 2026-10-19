@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maple Street Bakery (Sample Site)</title>
+<meta name="description" content="Sample website for a fictional neighborhood bakery.">
+<style>
+  :root { --ink:#2a1d14; --muted:#6e5d50; --bg:#fff8f0; --card:#fff; --line:#f0e2d2; --accent:#b4532a; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:Georgia,"Times New Roman",serif; color:var(--ink); background:var(--bg); line-height:1.6; }
+  .note { background:#2a1d14; color:#fff; text-align:center; font:14px system-ui,sans-serif; padding:8px 16px; }
+  .note a { color:#ffd9b8; }
+  .wrap { max-width:900px; margin:0 auto; padding:0 16px; }
+  .hero { text-align:center; padding:64px 0 48px; }
+  h1 { font-size:clamp(2.2rem,6vw,3.6rem); margin:0 0 8px; }
+  .tag { color:var(--muted); font-size:1.2rem; margin:0 0 24px; }
+  .btn { display:inline-block; background:var(--accent); color:#fff; padding:14px 22px; border-radius:999px; text-decoration:none; font:600 16px system-ui,sans-serif; margin:6px; }
+  .btn.alt { background:transparent; color:var(--accent); border:2px solid var(--accent); }
+  section { padding:40px 0; border-top:1px solid var(--line); }
+  h2 { margin:0 0 20px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:16px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:20px; }
+  .photo { height:140px; border-radius:10px; margin-bottom:12px; background:linear-gradient(135deg,#e9b98b,#c97b4a); }
+  .photo.b { background:linear-gradient(135deg,#f3d6a4,#d49a52); }
+  .photo.c { background:linear-gradient(135deg,#e7c3c9,#b9737e); }
+  table { border-collapse:collapse; font-family:system-ui,sans-serif; }
+  td { padding:6px 24px 6px 0; }
+  blockquote { margin:0; font-style:italic; }
+  blockquote footer { font-style:normal; color:var(--muted); margin-top:8px; font-size:.95rem; }
+  .map { width:100%; height:260px; border:0; border-radius:14px; }
+  .site-footer { padding:32px 0; text-align:center; color:var(--muted); font:14px system-ui,sans-serif; }
+</style>
+</head>
+<body>
+<div class="note">This is a sample site for a made-up business. <a href="../">Want one for your business?</a></div>
+<div class="wrap">
+  <div class="hero">
+    <h1>Maple Street Bakery</h1>
+    <p class="tag">Fresh bread, pastries, and custom cakes, baked every morning since 2015.</p>
+    <a class="btn" href="tel:5550100">Call to order</a>
+    <a class="btn alt" href="#visit">Hours &amp; directions</a>
+  </div>
+
+  <section>
+    <h2>What we bake</h2>
+    <div class="grid">
+      <div class="card"><div class="photo"></div><strong>Sourdough loaves</strong><p>48-hour slow rise. Out by 7am, gone by noon.</p></div>
+      <div class="card"><div class="photo b"></div><strong>Morning pastries</strong><p>Croissants, cinnamon rolls, and seasonal fruit danishes.</p></div>
+      <div class="card"><div class="photo c"></div><strong>Custom cakes</strong><p>Birthdays, weddings, and everything in between. Order 3 days ahead.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>What neighbors say</h2>
+    <div class="grid">
+      <div class="card"><blockquote>"Best croissants in town, hands down."<footer>Sample review</footer></blockquote></div>
+      <div class="card"><blockquote>"They made our wedding cake and it was perfect."<footer>Sample review</footer></blockquote></div>
+    </div>
+  </section>
+
+  <section id="visit">
+    <h2>Visit us</h2>
+    <table>
+      <tr><td>Tue to Fri</td><td>7am to 3pm</td></tr>
+      <tr><td>Sat to Sun</td><td>8am to 2pm</td></tr>
+      <tr><td>Mon</td><td>Closed</td></tr>
+    </table>
+    <p>123 Maple Street, Your Town</p>
+    <iframe class="map" title="Map" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=-0.13%2C51.50%2C-0.12%2C51.51&amp;layer=mapnik"></iframe>
+  </section>
+
+  <div class="site-footer">© 2026 Maple Street Bakery (sample) · <a href="tel:5550100">555-0100</a></div>
+</div>
+</body>
+</html>
