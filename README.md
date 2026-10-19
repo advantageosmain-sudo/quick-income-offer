@@ -48,5 +48,7 @@ Quick test: search Google Maps for "[trade] near [your town]". Any listing witho
 
 - `index.html`: your sales landing page (what you send people to).
 - `demo/index.html`: a sample site for a fictional bakery, to show prospects what they'll get.
+- `OUTREACH.md`: where to find leads and the messages to send.
+- `7-DAY-PLAN.md`: day-by-day plan and the day 5 to 7 review checklist.
 
 Before going live, search `index.html` for `REPLACE` and put in your own name and contact details.
