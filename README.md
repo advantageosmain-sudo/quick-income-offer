@@ -52,8 +52,8 @@ Quick test: search Google Maps for "[trade] near [your town]". Any listing witho
 - `7-DAY-PLAN.md`: day-by-day plan and the day 5 to 7 review checklist.
 
 
-## Payment links (Stripe, live)
+## Payment links (Stripe, live, Atlas Digital Press account)
 
-- Deposit, $100: https://buy.stripe.com/3cI9AMdAtbI37nI87pebu04 (also on the sales page)
-- Final payment, $99: https://buy.stripe.com/4gM5kw6813bx4bwgDVebu05 (send after the customer approves the preview)
-- Care plan, $25/month: https://buy.stripe.com/aFa6oAaoh4fBfUegDVebu06 (also on the sales page)
+- Deposit, $100: https://buy.stripe.com/7sYeVdg0B5aL79Efsf5ZC00 (also on the sales page)
+- Final payment, $99: https://buy.stripe.com/8x23cv5lX7iTdy25RF5ZC01 (send after the customer approves the preview)
+- Care plan, $25/month: https://buy.stripe.com/fZu9AT3dP6ePgKe3Jx5ZC02 (also on the sales page)
